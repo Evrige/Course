@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="bg" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="600.0"  styleClass="gamebg" stylesheets="@style.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.GameController">
+   <children>
+      <AnchorPane prefHeight="74.0" prefWidth="600.0" style="-fx-background-color: #616161;">
+         <children>
+            <Label fx:id="recordsText" layoutX="14.0" layoutY="25.0" text="Records" textFill="#ffa218">
+               <font>
+                  <Font name="Arial" size="24.0" />
+               </font>
+            </Label>
+            <Label fx:id="point" layoutX="337.0" layoutY="25.0" text="0" textFill="#ffa218">
+               <font>
+                  <Font name="Arial" size="24.0" />
+               </font>
+            </Label>
+            <Label fx:id="pointText" layoutX="255.0" layoutY="25.0" text="Points:" textFill="#ffa218">
+               <font>
+                  <Font name="Arial" size="24.0" />
+               </font>
+            </Label>
+            <Label fx:id="records" layoutX="116.0" layoutY="25.0" text="0" textFill="#ffa218">
+               <font>
+                  <Font name="Arial" size="24.0" />
+               </font>
+            </Label>
+            <Button fx:id="menu" layoutX="496.0" layoutY="25.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="90.0" style="-fx-background-color: #ffa218;" text="Menu" />
+         </children>
+      </AnchorPane>
+      <ImageView fx:id="man1" fitHeight="241.0" fitWidth="108.0" layoutX="246.0" layoutY="421.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/man1.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

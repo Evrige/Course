@@ -1,0 +1,7 @@
+.root{
+   -fx-background-image: url("assets/bg-menu.jpg");
+    -fx-background-size: cover;
+}
+.gamebg{
+    -fx-background-image: url("assets/bg.jpg");
+}
