@@ -55,10 +55,17 @@ public class Controller {
         close.setOnAction(new EventHandler<ActionEvent>() {
             @Override
             public void handle(ActionEvent event) {
-
+                Stage stage = (Stage) close.getScene().getWindow();
+                stage.close();
             }
         });
 
+        records.setOnAction(new EventHandler<ActionEvent>() {
+            @Override
+            public void handle(ActionEvent event) {
+
+            }
+        });
     }
 
 }
