@@ -4,9 +4,7 @@ public class prototype {
     public int x;
     public int y;
     public int height;
-    public void move(){
 
-    }
     public void hide(){
 
     }
